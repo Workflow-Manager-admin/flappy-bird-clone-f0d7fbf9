@@ -53,7 +53,7 @@ function flappyBirdInit() {
     primary: "#70c5ce",      // sky
     secondary: "#ded895",    // ground
     accent: "#ffdf70",       // pipe and bird
-    bird: "#ffe066"
+    bird: "#FF0000"          // fully red bird for customization
   };
   const PIPE_COLOR = theme.accent;
   const GROUND_COLOR = theme.secondary;
