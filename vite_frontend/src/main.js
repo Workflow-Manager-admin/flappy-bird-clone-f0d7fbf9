@@ -64,7 +64,8 @@ function flappyBirdInit() {
   const FLAP = -5.0;     // was -7
   const BIRD_RADIUS = 17;
   const PIPE_WIDTH = 54;
-  const PIPE_GAP = 128;
+  // Increased the vertical gap between pipes for an easier play experience
+  const PIPE_GAP = 175;
   const BASE_HEIGHT = 60;
 
   // --- Game State ---
