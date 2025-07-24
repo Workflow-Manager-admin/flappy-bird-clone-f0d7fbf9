@@ -59,8 +59,9 @@ function flappyBirdInit() {
   const GROUND_COLOR = theme.secondary;
   const BG_COLOR = theme.primary;
   const BIRD_COLOR = theme.bird;
-  const GRAVITY = 0.58;
-  const FLAP = -7;
+  // Reduced gravity and gentler flap for slower ascent/descent
+  const GRAVITY = 0.40;  // was 0.58
+  const FLAP = -5.0;     // was -7
   const BIRD_RADIUS = 17;
   const PIPE_WIDTH = 54;
   const PIPE_GAP = 128;
